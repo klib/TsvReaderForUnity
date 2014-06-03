@@ -1,0 +1,82 @@
+TreeTextExample	attributesHere	multiple-attributesTest
+
+	Localize example
+		
+		English
+		
+			LC_WARRIOR	Warrior
+			LC_MAGE	Mage
+			LC_ROGUE	Rogue
+		
+		
+		Japanese
+		
+			LC_WARRIOR	ウォーリア
+			LC_MAGE	メイジ
+			LC_ROGUE	ローグ
+		
+		
+		Russian
+		
+			LC_WARRIOR	воин
+			LC_MAGE	маг
+			LC_ROGUE	жулик
+	
+	
+	
+	Multiple attributes
+	
+		Example	Attribute1	Attribute2	Attribute3	...Addable more
+		
+			nested	Attribute1	Attribute2	...Addable more
+	
+	
+	
+	String example
+		
+		Single line	This is single line string example.
+		
+		Single line	If element name defined same name and tree level, then elements make in array.
+		
+		Multiple
+		
+				This is multi-line string example.
+				If text has been 2-nested, then detect multi-line string.
+				Multi-line detect is continued until other nest level.
+	
+		Difference between the 2-nested line and 1-nested line
+			This is 1-nested.
+	
+	
+		#  Single-line comments begin with the hash character '#' and are terminated by the end of line.
+		
+	
+	UnitDataExample
+	
+		Warrior
+		
+			HP	100
+			SP	100
+			ATK	50
+			GRD	50
+			SPD	10
+			MGC	0
+	
+		Mage
+		
+			HP	50
+			SP	200
+			ATK	10
+			GRD	20
+			SPD	30
+			MGC	50
+	
+		Rogue
+		
+			HP	75
+			SP	50
+			ATK	30
+			GRD	30
+			SPD	50
+			MGC	0
+		

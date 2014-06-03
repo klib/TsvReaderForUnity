@@ -1,0 +1,13 @@
+# KeyPairText TSV example
+#
+# Single-line comments begin with the hash character '#' and are terminated by the end of line.
+#
+# key pairs text will be used in the config file mainly.
+# The same name keys value is overwritten by the next same name key value.
+#
+
+intExample	12345
+doubleExample	7655.01
+boolExample	true
+
+stringExample	This is string sample.

@@ -1,0 +1,16 @@
+PlainText TSV example
+
+a	b	c	d
+1	2	3	4	5
+6	7	8	9	10	11	12	13	14	15
+
+# PlainText mode was disabled comment line. So this line is read to buffer.
+# KeyPairText mode and TreeText mode enabled comment line.
+# And, The empty lines is read to buffer.
+
+
+
+Localize	English	日本語(Japanese)	русский язык(Russian)
+LC_WARRIOR	Warrior	ウォーリア	воин
+LC_MAGE	Mage	メイジ	маг
+LC_ROGUE	Rogue	ローグ	жулик
